@@ -3,5 +3,15 @@ Code for medium article: [An income back test of three roulette strategies based
 
 The environment setting was based on [this repository](https://github.com/gabfl/roulette)
 
-Requirements:
+### Description
+***
+play2.0.py -> generate game record
+
+r3.py -> train RL agent
+
+r3-test.py -> test performance
+
+
+### Requirements
+***
 TensorFlow 2.0
