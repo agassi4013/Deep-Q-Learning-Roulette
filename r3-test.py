@@ -70,7 +70,7 @@ def onethird_react(act, step_num, bet):
         else:
             return -bet
     elif act == 1:
-        if game_num[step_num]<25:
+        if game_num[step_num]<25 and game_num[step_num]>12:
             return bet*2
         else:
             return -bet
